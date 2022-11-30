@@ -1,7 +1,7 @@
 let num=17;
 let factor=0
-for(let a=1;a<num;a++){
-    if(num%2===0){
+for(let a=1;a<=num;a++){
+    if(num%a===0){
         factor++
     }
 }
